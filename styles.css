@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(pictures/iring.jpg);
+    background-size: cover;
+}
+
+header{
+    background-color: #ae9fbd;
+    padding:3px;
+    opacity: 50%;
+}
+
+ul{
+    float: inline-end;
+    list-style-type: none;
+    margin-top: 20px;
+    min-height: 400%;
+    margin-right: 60px;
+}
+
+ul li{
+    display: inline-block;
+}
+   
+ul li a{
+    text-decoration: none;
+    color: #563170;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    text-size-adjust: medium;
+    float: left;
+} 
+
+ul li a:hover{
+    background-color: #a27ec0;
+    color: #020000;
+}
+
+.main{
+    margin-left: 15%;
+    font-size: x-large;
+}
+
+.title h2{
+    margin-top: 3%;
+    margin-left: 5%;
+    color:#54277a;
+    font-size: xx-large;
+}
+
+.body{
+    margin-right: 30%;
+}
+
+h3{
+    color: #bdafc9;
+    margin-left: 12%;
+}
+
+h5{
+    color: #671ba5;
+}
+
+p{
+    color: #ae9fbd;
+    margin-left: 17%;
+}
+
+ol{
+    margin-left: 14%;
+    float: inline-start;
+    list-style-type: none;
+    margin-right: 0%;
+}
+
+ol li{
+    margin-left: 10%;
+    margin-right: 0%;
+}
+
+.container ol{
+    background-color: #000000;
+    opacity: 90%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    float: right;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+

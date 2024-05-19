@@ -1,0 +1,82 @@
+style.css
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4a0970;
+}
+body{
+    background-image: url("pictures/dagat.jpg");
+    background-size: cover;
+}
+
+ul{
+    float: inline-end;
+    list-style-type: none;
+    margin-top: 20px;
+    min-height: 400%;
+    margin-right: 60px;
+}
+
+ul li{
+    display: inline-block;
+}
+   
+ul li a{
+    text-decoration: none;
+    color: #563170;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    text-size-adjust: medium;
+    float: left;
+} 
+
+ul li a:hover{
+    background-color: #a27ec0;
+    color: #020000;
+}
+
+.main{
+    margin-left: 15%;
+    font-size: x-large;
+}
+
+.title h2{
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-bottom: 0%;
+    color:#54277a;
+    font-size: xx-large;
+}
+
+.body{
+    margin-right: 35%;
+}
+
+.title ul{
+    margin-left: 15%;
+    color:#a48cb8;
+    font-size: larger;
+    float: left;
+}
+
+.body{
+    margin-right: 35%;
+    margin-left: 12%;
+    font-size: 18px;
+}
+
+p{
+    color: #4e384e;
+}
+
+.footer{
+    margin-right: 3%;
+    float: right;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
